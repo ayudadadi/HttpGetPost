@@ -1,4 +1,4 @@
-package com.example.okhttp;
+package com.example.httpgetpost;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.example.okhttp;
+package com.example.httpgetpost;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.okhttp", appContext.getPackageName());
+        assertEquals("com.example.httpgetpost", appContext.getPackageName());
     }
 }

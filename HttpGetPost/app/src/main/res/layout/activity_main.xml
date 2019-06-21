@@ -5,35 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.example.httpgetpost.MainActivity">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/b1"
-        android:text="ok http"/>
+        android:text="HttpGet"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/b2"
-        android:text="tongbu ok http"/>
-    <Button
-        android:layout_width="wrap_content"
+        android:text="HttpPost"/>
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/b3"
-        android:text="get phone"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/b4"
-        android:text="post phone"/>
+        android:hint="请输入你的手机号码"
+        android:id="@+id/edit_phoneNum"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/t1" />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imgv"/>
+        android:id="@+id/t1"/>
+
 
 </LinearLayout>
